@@ -13,16 +13,16 @@ public class KeyboardInputs implements KeyListener {
   public void keyPressed(KeyEvent e) {
     switch (e.getKeyCode()) {
       case KeyEvent.VK_W:
-        window.get("player").forward()
+        window.player.forward()
         break;
       case KeyEvent.VK_A:
-        window.get("player").left()
+        window.player.left()
         break;
       case KeyEvent.VK_S:
-        window.get("player").backward()
+        window.player.backward()
         break;
       case KeyEvent.VK_D:
-        window.get("player").right()
+        window.player.right()
         break;
       default:
         break;
