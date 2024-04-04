@@ -4,7 +4,6 @@ public class Window {
   public Window() {
     super()
 
-    player = new Player();
-    player.suckMyBalls();
+    player = new Player("🍆🍆🍆🍆🍆🍆🍆🍆");
   }
 }
